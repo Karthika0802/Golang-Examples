@@ -1,3 +1,19 @@
+/*This simulation is called Conways' game of life. The simulation models population change according to certain rules.
+Each cell is either inhabited or uninhabited. Each inhabited/uninhabited cell can change its status in each iteration 
+
+The rules are are follows:
+
+1. If a inhabited cell has less than 2 neighbors, it will die from lonliness
+2. If a inhabited cell has 2-3 neighbors, it will live
+3. If a inhabited cell has over 3 neighbors, it will die from overpopulation
+4. If a uninhabited cell has exactly 3 neigbors, it will become inhabited by reproduction
+
+The simulations' original input is determined via randomly generated numbers.
+
+A 1 represents an inhabited cell and a 0 represents an uninhabited one.
+
+*/
+
 package main
 
 import (
